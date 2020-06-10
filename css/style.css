@@ -88,3 +88,13 @@ body {
     margin-top: 7rem;
   }
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 1px solid #F8F9FA;
+  padding: 10px;
+}
+.border_img{
+  border: 1px solid grey;
+}
