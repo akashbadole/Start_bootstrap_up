@@ -1,6 +1,6 @@
+ 
 
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>Startupworld | Campus TV</title>
+    <title>Startupworld | Smart Cookie Projects  </title>
 
     <link rel="canonical" href="#">
 
@@ -41,77 +41,84 @@
           font-size: 3.5rem;
         }
       }
-    
-     #jumbo{
-       background: url("image/jumbo.jpg")no-repeat;
-       background-size: cover;
-     }
-      
+      .img_s {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);
+
+      }
+      .bg-light {
+      background-color: #f8f9fa!important;
+      }
+      .carousel-caption {
+        font-weight: 800;
+        color: blueviolet;
+        text-shadow: 2px 2px 5px rgb(224, 255, 85);
+
+      }
+      footer{
+        background-color: #d9e2ea;
+        padding: 20px;
+        text-align: center;
+      }
     </style>
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
-    <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Fa Fa Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-   
-<header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" style="background-color: #257CC1;">
     <div class="container">
-    <a class="navbar-brand" href="#"><img src=" http://startupworld.in/image/theme/logo.png" width="120" height="auto"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      
+    <a class="navbar-brand" href="#"> <img src="http://startupworld.in/image/theme/logo.png" width="120" height="auto"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ml-auto bg-black">
-            <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Technologies We Handle</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Our Domains</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">What we tech</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Training
-                </a>
-                <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                    <a class="dropdown-item" href="#">Courses</a>
-                    <a class="dropdown-item" href="#">Syllabus</a>
-                </div>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Internship</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="DropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Register
-                </a>
-                <div class="dropdown-menu" aria-labelledby="DropdownMenuLink">
-                    <a class="dropdown-item" href="#">Register for Student</a>
-                    <a class="dropdown-item" href="#">Ethical HR Registration</a>
-                    <a class="dropdown-item" href="#">Register college </a>
-                    <a class="dropdown-item" href="#">Register Teacher </a>
-                    <a class="dropdown-item" href="#">Register Employer </a>
-                    <a class="dropdown-item" href="#">Register Sponser </a>
-                    <a class="dropdown-item" href="#">Register Mentor </a>
-                    <a class="dropdown-item" href="#">Today Winners</a>
-                </div>
-            </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mt-2 mt-md-0">
+       
+      </ul>
+     
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Technologies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Our Domain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Teach</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Training</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Internship</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Register
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Register for Student</a>
+            <a class="dropdown-item" href="#">Ethical HR Registration</a>
+            <a class="dropdown-item" href="#">Register college </a>
+            <a class="dropdown-item" href="#">Register Teacher </a>
+            <a class="dropdown-item" href="#">Register Employer </a>
+            <a class="dropdown-item" href="#">Register Sponser </a>
+            <a class="dropdown-item" href="#">Register Mentor </a>
+            <a class="dropdown-item" href="#">Today Winners</a> 
+          </div>
+        </li>
+      </ul>
+
+    </div>
+</div> 
 </nav>
 </header>
 
@@ -168,8 +175,8 @@
     </a>
   </div> -->
 
-  <div id="jumbo" class="jumbotron jumbotron-fluid" style="background-color:#101044;">
-    <div class="container my-5 py-3">
+  <div id="jumbo" class="jumbotron jumbotron-fluid">
+    <div class="container my-5 py-5">
       <h1 class="display-4 mt-5 text-white">Campus TV</h1>
       <p class="lead text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro ipsa neque rem dignissimos illo doloribus.</p>
       <p><a class="btn btn-lg btn-info" href="#" role="button">Learn more</a></p>
@@ -182,21 +189,21 @@
     <div class="row">
       <div class="col-lg-4">
         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="image/slider/development.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-        <img src="images/campustvads.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+        <img src="image/campustvads.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
         <h4>Create Campus TV Ads </h4>
         
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-        <img src="images/artclub.png" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+        <img src="image/artclub.png" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
         <h4>Attract different Arts clubs</h4>
        
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
-        <img src="images/attfund.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+        <img src="image/attfund.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
         <h4>Attract Funding</h4>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
@@ -216,7 +223,7 @@
       </div>
       <div class="col-md-5 align-self-center">
         <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img src="images/app.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+        <img src="image/app.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
       </div>
     </div>
 
@@ -231,7 +238,7 @@
       </div>
       <div class="col-md-5 order-md-1">
         <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img src="images/marketresearch.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+        <img src="image/marketresearch.jpeg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
       </div>
     </div>
 
@@ -245,7 +252,7 @@
       </div>
       <div class="col-md-5 align-self-center">
         <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
-        <img src="images/artmusicpoet.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+        <img src="image/artmusicpoet.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="">
       </div>
     </div>
 
@@ -256,12 +263,16 @@
   </div><!-- /.container -->
 
 
+
   <!-- FOOTER -->
-  <footer class="container">
+  <footer class="container-fluid">
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script></body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script>
+
+
+</body>
 </html>
